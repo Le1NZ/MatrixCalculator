@@ -1,0 +1,62 @@
+[versions]
+activityCompose = "1.9.2"
+agp = "8.5.2"
+allureKotlinModel = "2.4.0"
+composeBom = "2024.09.02"
+core = "1.5.0"
+fragmentKtx = "1.8.3"
+fragmentTesting = "1.8.4"
+kotlin = "1.7.20"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinxCoroutinesAndroid = "1.9.0"
+kotlinxCoroutinesCore = "1.9.0"
+lifecycleViewmodelCompose = "2.8.6"
+lifecycleViewmodelKtx = "2.8.6"
+material = "1.12.0"
+runner = "1.5.0"
+uiTestManifest = "1.7.3"
+uiToolingPreviewAndroid = "1.7.2"
+uiTooling = "1.7.2"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+uiTestJunit4Android = "1.7.3"
+
+[libraries]
+allure-kotlin-commons = { module = "io.qameta.allure:allure-kotlin-commons", version.ref = "allureKotlinModel" }
+allure-kotlin-junit4 = { module = "io.qameta.allure:allure-kotlin-junit4", version.ref = "allureKotlinModel" }
+allure-kotlin-model = { module = "io.qameta.allure:allure-kotlin-model", version.ref = "allureKotlinModel" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+androidx-core = { module = "androidx.test:core", version.ref = "core" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-foundation = { module = "androidx.compose.foundation:foundation" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-fragment-testing = { module = "androidx.fragment:fragment-testing", version.ref = "fragmentTesting" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-material3 = { module = "androidx.compose.material3:material3" }
+androidx-rules = { module = "androidx.test:rules", version.ref = "core" }
+androidx-runner = { module = "androidx.test:runner", version.ref = "runner" }
+androidx-ui = { module = "androidx.compose.ui:ui" }
+androidx-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiTestManifest" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-ui-tooling-preview-android = { group = "androidx.compose.ui", name = "ui-tooling-preview-android", version.ref = "uiToolingPreviewAndroid" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "uiTooling" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-ui-test-junit4-android = { group = "androidx.compose.ui", name = "ui-test-junit4-android", version.ref = "uiTestJunit4Android" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MatrixCalculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="type_multiple_number">Умножить на число</string>
+    <string name="type_multiple">Перемножить</string>
+    <string name="type_add">Сложить</string>
+    <string name="type_minus">Вычесть</string>
+    <string name="type_determinant">Найти определитель</string>
+    <string name="choose_size">Выберите размер матриц:</string>
+    <string name="choose_operation_type">Выберите тип операции:</string>
+    <string name="matrix">Матица:</string>
+    <string name="matrix_first">Матрица 1:</string>
+    <string name="matrix_second">Матрица 2:</string>
+    <string name="number">Число:</string>
+    <string name="find">Найти</string>
+    <string name="something_went_wrong">Что-то пошло не так...</string>
+    <string name="result">Результат: </string>
+</resources>
